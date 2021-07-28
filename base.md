@@ -27,3 +27,10 @@ git commmit -m '本次提交描述'
 git log
 
 222222222222222
+
+查看仓库状态
+git status
+333333333333333
+
+撤销
+git restore

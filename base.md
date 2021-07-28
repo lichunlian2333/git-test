@@ -34,3 +34,6 @@ git status
 
 撤销
 git restore
+
+撤销工作区更改
+git restore file

@@ -34,6 +34,13 @@ git status
 
 撤销
 git restore
-
+ 
 撤销工作区更改
 git restore file
+
+
+<!-- 版本回退 -->
+
+用 HEAD 表示当前版本
+上一个版本就是 HEAD^，上上一个版本就是 HEAD^^, HEAD~100
+git reset --hard 12345

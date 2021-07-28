@@ -41,9 +41,27 @@ git restore file
 撤销暂存区更改
 git restore --staged file
 
+<!-- 生成ssh-key -->
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 
 <!-- 版本回退 -->
 
 用 HEAD 表示当前版本
 上一个版本就是 HEAD^，上上一个版本就是 HEAD^^, HEAD~100
 git reset --hard 12345
+
+
+git reflog 所有git 仓库 操作记录
+
+
+
+关联远程仓库
+git remote add origin git@github.com:FindIndex/git-test.git
+
+git branch -M main
+
+推送到远程仓库
+git push -u origin main
+
+git push

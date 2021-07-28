@@ -15,3 +15,15 @@ git config --global user.email "Nicholas@xx.com"
 git init
 
 11111111111111111111111
+
+添加到仓库
+git add base.md
+
+git commmit -m '本次提交描述'
+
+添加到仓库完成 有一个版本
+
+查看所有版本
+git log
+
+222222222222222
